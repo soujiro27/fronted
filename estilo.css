@@ -1,5 +1,58 @@
 body
 {
+	
 	background: #efefef;
 	color: #4c4c4c;
+	font-family:"Pt Sans",Arial;
+	font-size: 16px;
+	margin: 0;
 }
+
+header
+{
+	background: #434343;
+	color:white;
+	text-align: left;
+
+}
+
+header figure, header h1
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+header h1
+{
+	font-size: 20px;
+	font-weight: normal;
+	width: 45%;
+	text-align: center;
+
+}
+
+header #avatar
+{
+float: right;
+}
+
+header #avatar figcaption
+{
+	background: #22bce0;
+	display: inline-block;
+	float: right;
+	height: 50px;
+	padding: 0 .2em;
+}
+
+header #avatar img
+{
+	width:50px; 
+	float: left;
+}
+
+header #logo img
+{
+	width: 80px;
+}
+
